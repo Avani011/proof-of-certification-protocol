@@ -45,12 +45,6 @@
   color: white;
 }
 
-.content-main{
-  font-size: x-large;
-  font-family: 'Labrada';
-  color: white;
-}
-
 .input-div {
   height: 48px;
   width: 300px;
@@ -134,4 +128,65 @@ input {
   font-size:medium;
   text-align: center;
   width: 150px;
+}
+
+.nav-2{
+  background-color: #5d916314;
+  height: 100vh;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border: 0.5px solid rgba(128, 255, 0, 0.411);
+  border-left: none;
+}
+
+.nav-link{
+  color: white;
+  font-family: 'Labrada';
+  font-size: larger;
+  text-align: center;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 0.2px solid rgba(128, 255, 0, 0.033);
+  border-bottom: 0.2px solid rgba(128, 255, 0, 0.064);
+}
+
+.link{
+  width: 100%;
+  border-top: 0.2px solid rgba(128, 255, 0, 0.033);
+  border-bottom: 0.2px solid rgba(128, 255, 0, 0.064);
+}
+.cc{
+  background-color: #5d916314;
+  border-radius: 10px;
+  width: 300px;
+  border: 0.3px solid rgba(128, 255, 0, 0.319);
+}
+
+.cc-tag{
+  color: black;
+  font-family: 'Labrada';
+  font-size: medium;
+}
+
+.cc-tag-div{
+  background-color: chartreuse;
+  border-radius: 5px;
+  width: 80px;
+}
+
+.cc-head{
+  color: white;
+  font-family: 'Labrada';
+  font-size: larger;
+}
+
+.plus-btn{
+  height: 200px;
+  width: 280px;
+  color: white;
+  font-size: 80px;
+  border: 1px dashed white;
+  border-radius: 2px;
 }

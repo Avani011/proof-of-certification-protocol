@@ -35,7 +35,7 @@ const SignUp = () => {
             </div>
           </div>
 
-          <div className='flex justify-center items-center signup-containe'>
+          <div className='flex justify-center items-center signup-container'>
             <button
             onClick={() => dispatch(toggleProfile())}
             className='solid-btn'>

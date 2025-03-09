@@ -1,6 +1,6 @@
 // 📌 layout.tsx (Server Component)
 import "./globals.css";
-import ReduxProvider from "@/components/Provider"; // ✅ Import the Redux wrapper
+import ReduxProvider from "@/app/Provider"; // ✅ Import the Redux wrapper
 
 export const metadata = {
   title: "Create Next App",
@@ -11,7 +11,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className="main">
-        <ReduxProvider>{children}</ReduxProvider> {/* ✅ Wrap the app in Redux */}
+        <ReduxProvider>
+          {children}
+        </ReduxProvider> {/* ✅ Wrap the app in Redux */}
       </body>
     </html>
   );
