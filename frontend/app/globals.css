@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+.main{
+  background-color: black;
+}
+
+.bg{
+  background-color: #acffb920;
+  height: 100vh;
+  width: 100%;
+}
+
+.btn {
+  width: 200px;
+  height: 58px;
+  border: 1px solid chartreuse; /* Fix incorrect border syntax */
+  border-radius: 30px;
+  color: white;
+  font-size: larger;
+  font-family: 'Labrada', serif;
+}
+
+.solid-grn-btn{
+  width: 150px;
+  height: 38px;
+  background-color: chartreuse;
+  font-family: 'Labrada', serif;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: large;
+}
+
+.head{
+  font-size: 55px ;
+  font-family: 'Labrada';
+  font-weight: 400;
+  color: white;
+  text-shadow: rgba(128, 255, 0, 0.682) 2px 2px ;
+}
+
+.content-main{
+  font-size: large;
+  font-family: 'Labrada';
+  color: white;
+}
+
+.content-main{
+  font-size: x-large;
+  font-family: 'Labrada';
+  color: white;
+}
+
+.input-div {
+  height: 48px;
+  width: 300px;
+  border-radius: 40px;
+  border: 1px solid white;
+}
+
+input:focus {
+  outline: none;
+}
+
+input {
+  font-family: 'Labrada';
+  color: white;
+}
+
+.solid-btn {
+  height: 48px;
+  width: 300px;
+  border-radius: 40px;
+  background-color: chartreuse;
+  color: black;
+  font-size: x-large;
+  font-family: 'Labrada';
+}
+
+.line{
+  width: 120px;
+  height: 2px;
+  background-color: white;
+}
+
+.or{
+  color: chartreuse;
+  font-family: 'Labrada';
+  font-size: large;
+}
+
+
+
+/* Ensure Profile appears as an overlay and is centered */
+.profile-overlay {
+  position: fixed; /* Covers the entire screen */
+  inset: 0; /* Takes full width and height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5); /* Dim background */
+  z-index: 50; /* Ensure it's above other elements */
+}
+
+/* Style Profile container */
+.profile-container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+  text-align: center;
+}
+
+.signup-container {
+  position: relative;
+}
+
+.profile-div{
+  border: 1px solid chartreuse;
+  height: 200px;
+  width: 200px;
+  border-radius: 20px ;
+}
+
+.p-head {
+  color: white;
+  font-family: 'Labrada';
+  font-size: x-large;
+}
+
+.p-content {
+  color: white;
+  font-family: 'Labrada';
+  font-size:medium;
+  text-align: center;
+  width: 150px;
+}
