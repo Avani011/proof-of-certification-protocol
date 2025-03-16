@@ -18,7 +18,7 @@ const Nav3 = () => {
         <Link href="/issuer">
           <h2 className="nav-link">My Events</h2>
         </Link>
-        <Link href="/claim-certificate">
+        <Link href="/issue-certificate">
           <h2 className="nav-link">Issue Certificate</h2>
         </Link>
       </div>

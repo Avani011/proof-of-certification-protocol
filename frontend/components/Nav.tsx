@@ -14,8 +14,7 @@ const Nav = () => {
       
       <Link href='/signup'>
         <button className='btn' >
-          Connect Wallet
-        </button>
+          SignUp / SignIn   </button>
       </Link>
     </div>
   )

@@ -20,14 +20,14 @@ const Profile = () => {
 
         <div className='flex flex-row gap-48 z-20'>
           <Link href="/user">
-            <div className="profile-div flex flex-col gap-5 justify-center items-center">
+            <div className="profile-div flex flex-col gap-5 bg justify-center items-center">
                 <h3 className="p-head">USER</h3>
                 <p className="p-content"> User can access Event Certificates </p>
             </div>
           </Link>
 
           <Link href="/issuer">
-            <div className="profile-div flex flex-col gap-5 justify-center items-center">
+            <div className="profile-div flex flex-col gap-5 bg justify-center items-center">
                 <h3 className="p-head">ISSUER</h3>
                 <p className="p-content"> Issuer can create Event Certificates </p>
             </div>

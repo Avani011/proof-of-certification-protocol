@@ -7,7 +7,7 @@
 
 .bg{
   background-color: #acffb920;
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 
@@ -199,4 +199,73 @@ input {
   border-radius: 5px;
   font-weight: 600;
   font-size: large;
+}
+
+/* Hide the default checkbox */
+.custom-checkbox input {
+  display: none;
+}
+
+/* Base styles */
+.custom-checkbox {
+  display: flex;
+  align-items: center;
+  font-size: large;
+  font-family: 'Labrada';
+  color: white;
+  cursor: pointer;
+}
+
+/* Custom box */
+.box {
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(128, 255, 0, 0.352);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  transition: all 0.3s ease;
+}
+
+/* Tick mark */
+.custom-checkbox input:checked + .box {
+  background-color: chartreuse;
+  border-color: chartreuse;
+}
+
+.custom-checkbox input:checked + .box::after {
+  content: "✔";
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+}
+
+.ci-p{
+  font-family: 'Labrada';
+  font-size: small;
+  color: chartreuse;
+}
+
+.feature{
+  height: 80vh;
+}
+
+.f-div{
+  width: 350px;
+  height: 250px;
+  border: 0.5px solid rgba(128, 255, 0, 0.295);
+  border-radius: 10px;
+}
+
+.fp{
+  font-family: 'Labrada';
+  font-size: 15px;
+  text-align: justify;
+  color: white;
+}
+
+.how{
+  height: 80vh;
 }
